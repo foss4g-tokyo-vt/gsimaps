@@ -1,16 +1,23 @@
 {
   "layers": [
     {
-      "type": "Layer",
-      "id": "std",
-      "title": "標準地図",
-      "iconUrl": "",
-      "url": "http://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png",
-      "subdomains": "",
-      "attribution": "",
-      "cocotile": true,
-      "legendUrl": "http://maps.gsi.go.jp/development/ichiran.html#std",
-      "html": ""
+      "type": "LayerGroup",
+      "title": "マイレイヤ",
+      "html": "<a href='https://github.com/foss4g-tokyo-vt/gsimaps/edit/gh-pages/layers_txt/my_layers.txt'>編集</a>",
+      "entries": [
+        {
+          "type": "Layer",
+          "id": "std",
+          "title": "標準地図（ハンズオン用のサンプル）",
+          "iconUrl": "",
+          "url": "http://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png",
+          "subdomains": "",
+          "attribution": "",
+          "cocotile": true,
+          "legendUrl": "http://maps.gsi.go.jp/development/ichiran.html#std",
+          "html": ""
+        }
+      ]
     }
   ]
 }
