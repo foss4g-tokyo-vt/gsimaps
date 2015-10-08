@@ -25,6 +25,15 @@
           "legendUrl": "",
           "html": "<a href='https://github.com/foss4g-tokyo-vt/gsimaps/edit/gh-pages/layers_txt/my_layers.txt'>編集</a>",
           "maxZoom": 18
+        },
+        {
+          "type": "Layer",
+          "id": "example231",
+          "title": "代々木上原駅からFOSS4G Tokyo会場",
+          "url": "http://foss4g-tokyo-vt.github.io/gsimaps/example231/{z}/{x}/{y}.geojson",
+          "html": "<a href='https://github.com/foss4g-tokyo-vt/gsimaps/edit/gh-pages/layers_txt/my_layers.txt'>編集</a>",
+          "maxZoom": 18,
+          "maxNativeZoom": 2
         }
       ]
     }
