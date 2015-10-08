@@ -15,8 +15,16 @@
           "cocotile": true,
           "legendUrl": "http://maps.gsi.go.jp/development/ichiran.html#std",
           "html": "<a href='https://github.com/foss4g-tokyo-vt/gsimaps/edit/gh-pages/layers_txt/my_layers.txt'>編集</a>"
-        }
+        },
+        {
+          "type": "Layer",
+          "id": "toner",
+          "title": "Stamen Toner",
+          "url": "http://tile.stamen.com/toner/{z}/{x}/{y}.png",
+          "attribution": 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+          "legendUrl": "",
+          "html": "<a href='https://github.com/foss4g-tokyo-vt/gsimaps/edit/gh-pages/layers_txt/my_layers.txt'>編集</a>"
       ]
-    }
+    },
   ]
 }
